@@ -2,6 +2,7 @@
 * in line styled navigation background-repeat: *
 */
 
+@import "site-convention";
 
 nav#main_nav {
   ul {
@@ -9,15 +10,18 @@ nav#main_nav {
   }
 
   li {
+    background-color: $grey;
+    border-style: outset;
+    border-width: 5px;
     display: inline-block;
     margin: 0 2px;
-    padding: 4px 6px;
+    padding: 6px 6px;
     font-size: 1.5em;
 
     a,
     a:link,
     a:visited {
-      color: #FFF;
+      color: $black;
       text-decoration: none;
     }
   }

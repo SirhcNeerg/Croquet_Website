@@ -1,0 +1,64 @@
+/* layout.css.scss
+*
+* Basic styling
+*
+*/
+
+@import "site-convention";
+
+body {
+  background-image: url('lawn-background.png');
+  background-repeat: repeat-y;
+  background-size: 100% 100%;
+}
+
+div#container {
+  font-family: $body-font;
+  display: block;
+  position: relative;
+  min-height: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('trans.png');
+  background-repeat: repeat;
+}
+
+header#page_header {
+  background-color: #008000;
+  text-align: center;
+  color: $white;
+  padding: 10px 15px;
+}
+
+nav#utility {
+  float: right;
+  font-size: 1em;
+}
+
+section#main {
+  float: left;
+  width: 700px;
+  padding: 0 15px;
+
+  h3 {
+    
+    a,
+    a:link,
+    a:visited {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+}
+
+section#sidebar {
+  margin-left: 750px;
+  padding: 10px;
+}
+
+footer {
+  clear: left;
+  text-align: center;
+  padding: 100px;
+}
