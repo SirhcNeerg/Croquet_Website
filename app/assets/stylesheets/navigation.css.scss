@@ -1,0 +1,24 @@
+/* navigation.css.scss
+* in line styled navigation background-repeat: *
+*/
+
+
+nav#main_nav {
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 2px;
+    padding: 4px 6px;
+    font-size: 1.5em;
+
+    a,
+    a:link,
+    a:visited {
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+}
